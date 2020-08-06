@@ -4,6 +4,7 @@
 #include <array>
 #include <string>
 #include <vector>
+#include <memory>
 
 namespace eigen_io {
 // Image io

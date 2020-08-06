@@ -1,4 +1,5 @@
 #include <vector>
+#include <array>
 
 /**
  * Rectangle type. Format is: theta, rho1, rho2, rho1_error, rho2_error, theta1_error, theta2_error

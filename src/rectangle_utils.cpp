@@ -1,6 +1,5 @@
 #include "rectangle_utils.hpp"
 #include <Eigen/Dense>
-#include <array>
 #include <cmath>
 #include <vector>
 

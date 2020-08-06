@@ -62,7 +62,7 @@ MatrixXf read_image(const std::string &filename) {
 }
 
 //-----------------------------------------------------------------------------------------------------//
-void save_maximum(const std::string &filename, const std::vector<std::array<int, 2>> &indexes) {
+void save_maximum(const std::string &filename, const std::vector<std::array<int, 2>> &indexes) {
     std::ofstream maximums(filename.c_str());
 
     if (maximums.is_open()) {
@@ -75,7 +75,7 @@ void save_maximum(const std::string &filename, const std::vector<std::array<int,
 }
 
 //-----------------------------------------------------------------------------------------------------//
-void save_pairs(const std::string &filename, const std::vector<std::array<float, 4>> &pairs) {
+void save_pairs(const std::string &filename, const std::vector<std::array<float, 4>> &pairs) {
     std::ofstream rectangle_file(filename.c_str());
 
     if (rectangle_file.is_open()) {
@@ -89,7 +89,7 @@ void save_pairs(const std::string &filename, const std::vector<std::array<float,
 }
 
 //-----------------------------------------------------------------------------------------------------//
-void save_rectangle(const std::string &filename, const std::vector<std::array<int, 8>> &rectangles) {
+void save_rectangle(const std::string &filename, const std::vector<std::array<int, 8>> &rectangles) {
     std::ofstream rectangle_file(filename.c_str());
 
     if (rectangle_file.is_open()) {
@@ -105,7 +105,7 @@ void save_rectangle(const std::string &filename, const std::vector<std::array<in
 }
 
 //-----------------------------------------------------------------------------------------------------//
-void save_rectangle(const std::string &filename, const std::array<int, 8> &rectangles) {
+void save_rectangle(const std::string &filename, const std::array<int, 8> &rectangles) {
     std::ofstream rectangle_file(filename.c_str());
 
     if (rectangle_file.is_open()) {
